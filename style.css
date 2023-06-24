@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+h1{
+    text-align: center;
+}
+button{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+
+}
+#main{
+    width: 600px;
+    height: 300px;
+    border: 2px solid black;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+#computer{
+    display: flex;
+    height: 30px;
+    width: 80px;
+    margin-right: 0;
+    border: 2px solid black;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+span{
+    align-self: center;
+}
+h3{
+    text-align: center;
+}
+#answerbox{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 20px;
+    align-items: center;
+}
+#score{
+    text-align: center;
+    margin-top: 20px;
+    
+
+}
+ #resultbox{
+    border: 2px solid black;
+    width: 600px;
+    height: 150px;
+    margin: auto;
+    margin-top: 30px;
+
+ }
+ #vs{
+    font-style: italic;
+    font-size: 60px;
+ }
+ #scores{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 40px;
+ }
+ #myscore{
+    border: 2px solid red;
+    height: 30px ;
+    width: 40px;
+    font-size: larger;
+ }
+ 
+ #pcscore{
+    border: 2px solid red;
+    height: 30px ;
+    width: 40px;
+    font-size: larger;
+    
+ }
